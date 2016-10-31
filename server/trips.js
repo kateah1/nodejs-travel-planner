@@ -37,7 +37,7 @@ tripRouter.route('/')
 
     myTrips.push(trip);
 
-    response.json(myTrips);
+    response.status(201).json(myTrips);
   });
 
 tripRouter.route('/:id')

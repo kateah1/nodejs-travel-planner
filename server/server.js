@@ -24,4 +24,4 @@ app.use(function (error, request, response, next) {
 server.listen(process.env.PORT || 8080);
 console.log('On port 8080');
 
-exports.app = app;
+module.exports = server;
