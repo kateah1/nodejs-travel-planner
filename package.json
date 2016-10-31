@@ -15,6 +15,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "lodash": "^4.16.5",
+    "mocha": "^3.1.2",
     "mongoose": "^4.6.5",
     "morgan": "^1.7.0"
   },
